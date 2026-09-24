@@ -6,23 +6,35 @@ Instalar a extensão `Lombok Annotations Support for VS Code` para garantir que 
 ![Extensão "Lombok Annotations Support for VS Code" para garantir que as anotações do Lombok sejam reconhecidas.](extensaoLombokVSCode.png)
 
 # Executar os comandos:
-```
+```bash
 sdk list java
+```
+
+```bash
 sdk install java 21.0.6-amzn
+```
+
+```bash
 sdk default java 21.0.6-amzn
 ```
 
-```
+```bash
 mvn clean install
 ```
 
-```
+```bash
 java -jar target/lombok-project-1.0-SNAPSHOT.jar
 ```
 
-```
+```bash
 git add .
+```
+
+```bash
 git commit -m "Projeto com Lombok"
+```
+
+```bash
 git push
 ```
 
